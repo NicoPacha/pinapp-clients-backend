@@ -1,4 +1,4 @@
-package com.msclient.Client;
+package com.msclient.Client.Models;
 
 import java.sql.Date;
 

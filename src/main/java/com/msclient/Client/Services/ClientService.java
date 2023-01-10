@@ -1,12 +1,16 @@
-package com.msclient.Client;
+package com.msclient.Client.Services;
 
-import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.msclient.Client.Dtos.ClientDto;
+import com.msclient.Client.Dtos.KpiDto;
+import com.msclient.Client.Models.Client;
+import com.msclient.Client.utils.CalculateStandarDeviation;
 
 @Service
 public class ClientService {

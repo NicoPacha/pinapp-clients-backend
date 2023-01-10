@@ -1,4 +1,4 @@
-package com.msclient.Client;
+package com.msclient.Client.Dtos;
 
 public class KpiDto {
 
